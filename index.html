@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>낭만주의 음악(쇼팽, 리스트)</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/daisyui/5.0.46/daisyui.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container mx-auto p-4 md:p-8">
+
+    <header class="text-center my-12">
+        <h1 class="text-4xl md:text-6xl font-black text-shadow-custom">피아노의 두 거장</h1>
+        <p class="text-2xl md:text-4xl font-bold text-accent-yellow mt-2 text-shadow-custom">쇼팽 vs 리스트</p>
+        <p class="text-lg text-gray-300 mt-4 max-w-2xl mx-auto">낭만주의 시대, 피아노 하나로 세상을 뒤흔든 두 천재 음악가. <br>과연 누가 최고의 피아노 마법사였을까요?</p>
+    </header>
+
+    <!-- Theme Switcher Buttons -->
+    <div class="flex justify-center mb-8">
+        <button id="theme-dark-btn" class="bg-[#0A2463] hover:bg-[#1E40AF] text-white font-bold py-2 px-4 rounded mr-2">어둠 테마</button>
+        <button id="theme-light-btn" class="bg-[#F9F5FF] hover:bg-[#E0DAFF] text-[#581C87] font-bold py-2 px-4 rounded mr-2">밝음 테마</button>
+        <button id="theme-retro-btn" class="bg-[#4A3B45] hover:bg-[#6D5D6A] text-[#F2D7EE] font-bold py-2 px-4 rounded">레트로 테마</button>
+    </div>
+
+    <main class="space-y-12">
+        
+        <section id="romanticism" class="card rounded-xl p-6 md:p-8 text-center">
+            <h2 class="text-3xl font-bold mb-4 text-accent-blue">낭만주의 음악, 그게 뭔데?</h2>
+            <p class="max-w-3xl mx-auto text-gray-300 mb-8">낭만주의는 정해진 규칙보다 개인의 감정과 자유를 중요하게 생각했던 예술 사조입니다. 음악가들은 자신의 슬픔, 기쁨, 사랑 등 모든 감정을 음악이라는 일기장에 쏟아냈죠. 마치 마음이 오르락내리락하는 것처럼요!</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="card p-6 rounded-lg">
+                    <p class="big-stat text-accent-yellow">감정!</p>
+                    <p class="mt-2 font-semibold">Emotion</p>
+                </div>
+                <div class="card p-6 rounded-lg">
+                    <p class="big-stat text-accent-yellow">자유!</p>
+                    <p class="mt-2 font-semibold">Freedom</p>
+                </div>
+                <div class="card p-6 rounded-lg">
+                    <p class="big-stat text-accent-yellow">개성!</p>
+                    <p class="mt-2 font-semibold">Individuality</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="profiles">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="card rounded-xl p-6 md:p-8 text-center">
+                    <img src="https://placehold.co/128x128/3E92CC/FFFFFF?text=Chopin" alt="프레데리크 쇼팽" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/128x128/CCCCCC/333333?text=Image+Not+Found';">
+                    <h3 class="text-3xl font-bold">쇼팽 <span class="text-xl font-normal">(Chopin)</span></h3>
+                    <p class="text-2xl font-semibold text-accent-blue my-2">"피아노의 시인 ✒️"</p>
+                    <p class="text-gray-300">폴란드 출신의 섬세하고 내성적인 시인. 그의 음악은 혼자만의 비밀 일기처럼 속삭이듯 아름답고 서정적입니다.</p>
+                    <div class="mt-4">
+                        <span class="inline-block tag-blue text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded-full">#서정적</span>
+                        <span class="inline-block tag-blue text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded-full">#섬세함</span>
+                        <span class="inline-block tag-blue text-white text-sm font-semibold px-2.5 py-0.5 rounded-full">#내면적</span>
+                    </div>
+                </div>
+                <div class="card rounded-xl p-6 md:p-8 text-center">
+                    <img src="https://placehold.co/128x128/F4C150/FFFFFF?text=Liszt" alt="프란츠 리스트" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover" onerror="this.onerror=null;this.src='https://placehold.co/128x128/CCCCCC/333333?text=Image+Not+Found';">
+                    <h3 class="text-3xl font-bold">리스트 <span class="text-xl font-normal">(Liszt)</span></h3>
+                    <p class="text-2xl font-semibold text-accent-yellow my-2">"피아노의 마술사 🎩"</p>
+                    <p class="text-gray-300">헝가리 출신의 카리스마 넘치는 쇼맨. 그의 음악은 건반을 부술 듯한 화려한 기교와 폭발적인 에너지로 가득 차 있습니다.</p>
+                    <div class="mt-4">
+                        <span class="inline-block tag-yellow text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded-full">#화려함</span>
+                        <span class="inline-block tag-yellow text-white text-sm font-semibold mr-2 px-2.5 py-0.5 rounded-full">#기교적</span>
+                        <span class="inline-block tag-yellow text-white text-sm font-semibold px-2.5 py-0.5 rounded-full">#외향적</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="charts" class="card rounded-xl p-6 md:p-8">
+             <h2 class="text-3xl font-bold mb-4 text-center">음악 스타일 비교 분석</h2>
+             <p class="max-w-3xl mx-auto text-gray-300 mb-8 text-center">두 거장의 음악적 특징을 차트로 한눈에 비교해볼까요? 각 항목에서 누가 더 높은 점수를 받았을지 상상해보세요.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h4 class="text-xl font-bold text-center mb-4 text-accent-yellow">종합 능력치 비교</h4>
+                    <div class="chart-container h-80 md:h-96">
+                        <canvas id="styleRadarChart"></canvas>
+                    </div>
+                    <p class="text-center text-gray-400 mt-4 text-sm">쇼팽은 감성과 섬세함에서, 리스트는 기교와 규모 면에서 두각을 나타냅니다.</p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-center mb-4 text-accent-yellow">주요 작품 장르</h4>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="text-center">
+                            <div class="chart-container !h-48 md:!h-64">
+                                <canvas id="chopinDonutChart"></canvas>
+                            </div>
+                            <p class="font-bold mt-2">쇼팽</p>
+                            <p class="text-sm text-gray-300">피아노 독주곡에 집중</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="chart-container !h-48 md:!h-64">
+                                <canvas id="lisztDonutChart"></canvas>
+                            </div>
+                            <p class="font-bold mt-2">리스트</p>
+                            <p class="text-sm text-gray-300">다양한 장르 시도</p>
+                        </div>
+                    </div>
+                    <p class="text-center text-gray-400 mt-4 text-sm">쇼팽은 오직 피아노의 가능성을, 리스트는 피아노로 오케스트라까지 표현하고자 했습니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="masterpieces" class="card rounded-xl p-6 md:p-8">
+            <h2 class="text-3xl font-bold mb-6 text-center">대표 명곡 퍼레이드</h2>
+            <p class="max-w-3xl mx-auto text-gray-300 mb-8 text-center">두 작곡가의 개성이 뚜렷하게 드러나는 대표곡들을 만나보세요. 각 곡이 어떤 이야기를 들려주는지 상상하며 감상하는 것이 포인트!</p>
+            <div class="space-y-4 max-w-2xl mx-auto">
+                <div class="flow-item p-4 rounded-lg bg-gray-800/50">
+                    <a href="https://www.youtube.com/watch?v=0m2VmrHA9EQ" target="_blank" rel="noopener noreferrer" class="song-link">쇼팽 - 녹턴 (Nocturne)</a><br>
+                    <span class="text-sm text-gray-300">밤의 고요함과 아름다움을 노래하는 서정적인 작품.</span>
+                </div>
+                <div class="flow-item p-4 rounded-lg bg-gray-800/50">
+                    <a href="https://www.youtube.com/watch?v=oebp3Xcp2Ic" target="_blank" rel="noopener noreferrer" class="song-link">리스트 - 사랑의 꿈 (Liebestraum)</a><br>
+                    <span class="text-sm text-gray-300">달콤하고 로맨틱한 사랑의 감정을 화려하게 표현.</span>
+                </div>
+                <div class="flow-item p-4 rounded-lg bg-gray-800/50">
+                    <a href="https://www.youtube.com/watch?v=iDHjW7yaA-c" target="_blank" rel="noopener noreferrer" class="song-link">쇼팽 - 빗방울 전주곡 (Raindrop Prelude)</a><br>
+                    <span class="text-sm text-gray-300">창가에 떨어지는 빗방울 소리를 음악으로 그린 그림 같은 곡.</span>
+                </div>
+                <div class="flow-item p-4 rounded-lg bg-gray-800/50">
+                    <a href="https://www.youtube.com/watch?v=emukfL0ADmU" target="_blank" rel="noopener noreferrer" class="song-link">리스트 - 라 캄파넬라 (La Campanella)</a><br>
+                    <span class="text-sm text-gray-300">'작은 종'이라는 뜻으로, 악마적인 기교로 종소리를 묘사한 연습곡.</span>
+                </div>
+                <div class="flow-item p-4 rounded-lg bg-gray-800/50">
+                    <a href="https://www.youtube.com/watch?v=062AZ01Gfrw" target="_blank" rel="noopener noreferrer" class="song-link">쇼팽 - 즉흥 환상곡 (Fantasie-Impromptu)</a><br>
+                    <span class="text-sm text-gray-300">폭풍처럼 휘몰아치다 꿈꾸듯 부드러워지는, 극적인 감정의 변화.</span>
+                </div>
+                <div class="flow-item p-4 rounded-lg bg-gray-800/50">
+                    <a href="https://www.youtube.com/watch?v=eSTGDgbg6hg" target="_blank" rel="noopener noreferrer" class="song-link">리스트 - 헝가리 광시곡 2번 (Hungarian Rhapsody)</a><br>
+                    <span class="text-sm text-gray-300">헝가리 집시 음악의 정열과 애환을 담은 웅장한 작품.</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="conclusion" class="text-center my-12">
+            <h2 class="text-3xl font-bold">그래서, 당신의 선택은?</h2>
+            <p class="text-lg text-gray-300 mt-4 max-w-2xl mx-auto">
+                쇼팽이 **잔잔한 호수에 비치는 달빛**이라면, 리스트는 **거대하게 쏟아지는 폭포수**와 같습니다.
+                <br>섬세한 위로가 필요한 날엔 쇼팽을, 가슴 뛰는 열정이 필요한 날엔 리스트를 만나보세요.
+                <br>정답은 없습니다. 이제 직접 들어보고 여러분의 '최애' 작곡가를 찾아볼 시간입니다!
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="text-center mt-16 py-8 border-t">
+        <p class="text-gray-400 text-sm">&copy; 2025 중학교 음악 수업을 위한 데이터 시각화 자료</p>
+    </footer>
+
+</div>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/chart.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
